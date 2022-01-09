@@ -1,0 +1,23 @@
+
+.contact {
+  margin-left: 20%;
+  margin-right: 20%;
+
+  .h5 {
+    font-size: 1.25rem;
+  }
+
+  .contacts {
+    display: flex;
+
+    .contact-point-header {
+      flex: 0 0 auto;
+      width: calc(2 / 12 * 100%);
+    }
+
+    .contact-point-value {
+      flex: 0 0 auto;
+      width: calc(10 / 12 * 100%);
+    }
+  }
+}

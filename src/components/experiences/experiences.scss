@@ -1,0 +1,46 @@
+
+.my_experiences {
+  margin-left: 15%;
+  margin-right: 15%;
+
+  .container {
+    .experiences {
+      display: flex;
+      flex-wrap: wrap;
+
+      .experience {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+
+      .experience_title {
+        font-size: 1.25rem;
+      }
+
+      .project_title {
+        font-size: 1rem;
+        color: var(--bs-blue);
+      }
+
+      .project_link {
+        color: var(--bs-blue);
+        text-decoration: none;
+      }
+    }
+
+    .card-body {
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .skill_img {
+          flex: 0 0 auto;
+          //margin-left: 2rem;
+          margin-right: 2rem;
+          margin-bottom: .75rem;
+        }
+      }
+    }
+  }
+}

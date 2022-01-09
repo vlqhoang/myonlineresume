@@ -1,0 +1,23 @@
+
+.footer {
+  .h4 {
+    font-size: 1.25rem;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+
+    .nav-link {
+      padding: 0 0.5rem;
+      font-size: 1.1rem;
+      line-height: 2.5rem;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.8) !important;
+    }
+  }
+}

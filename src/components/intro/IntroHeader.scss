@@ -1,0 +1,77 @@
+.intro-header {
+  overflow-x: hidden;
+
+  .container {
+    padding-left: 15%;
+    padding-right: 15%;
+
+    display: flex;
+  }
+
+  .intro-img {
+    flex: 0 0 auto;
+    width: 50%;
+
+    .img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+
+  .intro-content {
+    flex: 0 0 auto;
+    width: 50%;
+
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+      margin-top: 0;
+    }
+
+    .intro-title {
+      font-weight: 800;
+      font-size: 2.5rem;
+    }
+
+    .social-nav {
+
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+      }
+
+      .nav-link {
+        padding: 0 .5rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        color: rgba(0,0,0,.8)!important;
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.wave-bg {
+  display: block;
+  height: 220px;
+  width: 100%;
+  min-width: 600px;
+  transform-origin: top;
+  -webkit-animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+  animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+  background-image: url(../../wave-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 960px) {
+  .intro-header > .container {
+    flex-flow: column;
+  }
+}

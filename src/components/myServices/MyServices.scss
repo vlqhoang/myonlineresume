@@ -1,0 +1,48 @@
+.my_services {
+
+  .h5 {
+    font-size: 1.25rem;
+  }
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+  .container {
+    .service_intro {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .services {
+      display: flex;
+
+      .web-design {
+        flex: 0 0 auto;
+        width: calc(100% / 4);
+      }
+
+      .uix {
+        flex: 0 0 auto;
+        width: calc(100% / 4);
+      }
+
+      .application {
+        flex: 0 0 auto;
+        width: calc(100% / 4);
+      }
+
+      .microservice {
+        flex: 0 0 auto;
+        width: calc(100% / 4);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .my_services > .container > .services{
+    flex-flow: column;
+    align-items: center;
+  }
+}

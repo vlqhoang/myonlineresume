@@ -1,0 +1,91 @@
+.navbar-light .navbar-brand {
+  color: rgba(0,0,0,.9);
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem 0 1rem 0;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+    color: rgba(0,0,0,.55);
+    border-radius: 5px;
+    padding: .15rem .25rem;
+
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    transition: box-shadow .15s ease-in-out;
+
+    .navbar-toggle-icon {
+      background-image: url("../../download.svg");
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .menu {
+    display: flex;
+    flex-basis: auto;
+
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      margin-left: auto;
+      margin-right: 1rem !important;
+
+      .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+
+        font-weight: 700;
+        color: rgba(0,0,0,.8)!important;
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .menu {
+    flex-basis: 100% !important;
+  }
+
+  .menu > .navbar-nav {
+    flex-direction: column !important;
+    margin-left: 0 !important;
+  }
+
+  .navbar-toggle {
+    display: block !important;
+  }
+}
