@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Short intro
 This is my online resume website that is written is React.
-This is just a simple React website using hooks that I created to introduce myself.
+This is just a simple React website using hooks that I created to introduce myself. Deployed to vercel - https://myonlineresume-vlqhoang.vercel.app/
 
 ## Available Scripts
 
