@@ -7,7 +7,7 @@ const experiences = [
         'time_window': '(July 2021 - Present)',
         'descriptions': [
             'Instaclustr provides fully managed services, one of them is Apache Cassandra, certified and hosted in the cloud or on-prem. Cassandra is customized and the configuration is optimized for your cluster so customers can focus on their applications.',
-            'I\'m part of the Cassandra team with the other 5 members. My responsibility is to collaborate with team members to deliver high-quality Cassandra features (PaaS) and provide the fastest bug fixes possible to Cassandra and its add-ons such as Spark, spark-jobserver, Lucene index, Debezium, Continuous data backup, etc. Apart from that, Cassandra team is responsible for delivering and offering customers with latest Cassandra major / minor versions that contain the latest bug fixes and CVEs patched while ensuring no downgrade to performance and functionalities.',
+            'I\'m part of the Cassandra team with the other 5 members. My responsibility is to collaborate with team members to deliver high-quality Cassandra features (SaaS) and provide the fastest bug fixes possible to Cassandra and its add-ons such as Spark, spark-jobserver, Lucene index, Debezium, Continuous data backup, etc. Apart from that, Cassandra team is responsible for delivering and offering customers with latest Cassandra major / minor versions that contain the latest bug fixes and CVEs patched while ensuring no downgrade to performance and functionalities.',
             'This project is driven by Scrum with the following main technical stacks: Java-based microservices, Postgres, Cassandra, Docker, Kubernetes, AWS, Ansible, Jenkins, Jira.'
         ],
         'skills': [10, 11, 13, 14, 15, 16, 17, 18, 20, 21, 24]
