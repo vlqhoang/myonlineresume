@@ -19,6 +19,8 @@ const About = (props) => {
                         I graduated from FPT University in 2018 with a <strong>Good degree</strong>. Ever since I graduated with a CS degree,
                         I've been working as a full-stack software developer and have been proving my skills through many successful projects.
                         I have never stopped educating myself with online courses and have been sharpening my skills to deliver better and better quality works.
+                    </p>
+                    <p>
                         Apart from sharpening my technical skills every day, I have a <strong>6.5 IELTS certificate</strong> and am willing to relocate to a different city to work.
                         I'm excited about working in a whole new different city with new people and new cultures.
                     </p>

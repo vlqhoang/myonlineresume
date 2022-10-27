@@ -1,3 +1,5 @@
+import awsArchitect from '../images/aws-certified-solutions-architect-associate.png';
+
 const skills = [
     {
         key: 1,
@@ -139,9 +141,9 @@ const skills = [
     },
     {
         key: 24,
-        src: 'https://img.icons8.com/color/48/000000/amazon-web-services.png',
+        src: awsArchitect,
         alt: 'AWS',
-        title: 'AWS Cloud Computing'
+        title: 'AWS Certified Solutions Architect - Associate'
     }
 ]
 export default skills;
