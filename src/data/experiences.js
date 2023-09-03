@@ -1,16 +1,29 @@
 const experiences = [
     {
-        'job_type': 4,
+        'job_type': 5,
+        'project_title': 'Fraud Prevention System',
+        'url': 'https://www.nab.com.au/',
+        'company': 'National Australian Bank - NAB.',
+        'time_window': '(Oct 2022 - Present)',
+        'descriptions': [
+             'NAB is the largest commercial bank in Australia. As a member of NAB Fraud team, our job is to prevent fraudulent transactions by introducing sophisticated services and infrastructures into the system. The ultimate mission is to fight financial crime and protect customers.',
+             'My daily work includes collaboration with Australian team members to rapidly deliver new features, break them down into microservices, and contribute to the whole fraud system in order to build a comprehensive, effective, and resilient fraud prevention system.',
+             'This project is driven by Scrum with the following main technical stacks: Java-based microservices, Kafka, Kafka Stream, Postgres, Docker, AWS, Splunk, Jenkins, Rally.'
+        ],
+        'skills': [10, 11, 13, 15, 17, 19, 20, 21, 24]
+    },
+    {
+        'job_type': 5,
         'project_title': 'Instaclustr Platform for Apache Cassandra',
         'url': 'https://www.instaclustr.com/',
         'company': 'Instaclustr. ',
-        'time_window': '(July 2021 - Present)',
+        'time_window': '(July 2021 - Oct 2022)',
         'descriptions': [
             'Instaclustr provides fully managed services, one of them is Apache Cassandra, certified and hosted in the cloud or on-prem. Cassandra is customized and the configuration is optimized for your cluster so customers can focus on their applications.',
             'I\'m part of the Cassandra team with the other 5 members. My responsibility is to collaborate with team members to deliver high-quality Cassandra features (SaaS) and provide the fastest bug fixes possible to Cassandra and its add-ons such as Spark, spark-jobserver, Lucene index, Debezium, Continuous data backup, etc. Apart from that, Cassandra team is responsible for delivering and offering customers with latest Cassandra major / minor versions that contain the latest bug fixes and CVEs patched while ensuring no downgrade to performance and functionalities.',
             'This project is driven by Scrum with the following main technical stacks: Java-based microservices, Postgres, Cassandra, Docker, Kubernetes, AWS, Ansible, Jenkins, Jira.'
         ],
-        'skills': [10, 11, 13, 14, 15, 16, 17, 18, 20, 21, 24]
+        'skills': [10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 24]
     },
     {
         'job_type': 4,
@@ -24,7 +37,7 @@ const experiences = [
             'Together with the other 4 team members, my task was to correspond with BA team to implement features from back-end side to front-end side that suit the business requirements and ensure on-time deliveries with tested quality and UI/UX. When responsive web version is completed, if feasible, this feature will be redesigned and deliver to app version with a more suitable UI / UX. Satisfaction from customers is one of a primary target.',
             'This project was driven by Scrum with the following main technical stacks: Ionic Framework, Java-based microservices, Spring, MySQL, HTML, SCSS, Typescript, Angular, Jenkins, Jira.'
         ],
-        'skills': [9, 10, 11, 1, 2, 4, 5, 6, 13, 20, 21]
+        'skills': [9, 10, 11, 1, 2, 4, 5, 6, 13, 19, 20, 21]
     },
     {
         'job_type': 3,
@@ -37,7 +50,7 @@ const experiences = [
             'Team size for this project was 3 and my responsibilities were to work with the design team and sketch out prototypes and get ideas delivered as a fully responsive website version that offered great UI/UX that matches the approved design.',
             'This project was driven by Scrum with the following main technical stacks: Java-based microservices, Spring, MySQL, HTML, SCSS, Typescript, Angular, Jenkins, Jira.'
         ],
-        'skills': [10, 11, 1, 2, 4, 5, 6, 13, 20, 21]
+        'skills': [10, 11, 1, 2, 4, 5, 6, 13, 19, 20, 21]
     },
     {
         'job_type': 5,
@@ -50,7 +63,7 @@ const experiences = [
             'With a team size of 6, my job was to work closely with BA team to analyze and implement appropriate functionalities on various services that not only align with business requirements but also ensure feature\'s performance and avoid code smell with clean code, SOLID principles. Also, to ensure bug-free, Junit tests were added as automation tests to cover and validate all functionalities. Before delivering to customers, features were carefully tested with 2 level acceptance tests to make sure all features bring no unexpected errors.',
             'This project was driven by Scrum with the following main technical stacks: Java-based microservices, Junit Test, Spring, MySQL, Jenkins, Jira.'
         ],
-        'skills': [10, 11, 13, 20, 21]
+        'skills': [10, 11, 13, 19, 20, 21]
     },
     {
         'job_type': 4,
@@ -88,7 +101,7 @@ const experiences = [
             'In my free time, I\'m usually doing self-study and works on some personal projects so that I can learn something new while sharpening my skills. I\'ve never stopped educating myself with courses, documents and books from the Internet so that I can become a better version of myself every day.',
             'I\'ve been working on various projects ranging from frontend to backend with the following main technical stacks: HTML, CSS, CSS preprocessor, React, Redux, React hook, Ionic, Java, and Spring microservices, Kafka, Docker, Swarm, Kubernetes.',
         ],
-        'skills': [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 15, 16, 17, 18]
+        'skills': [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 15, 16, 17, 18, 19]
     }
 ]
 export default experiences;

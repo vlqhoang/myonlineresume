@@ -21,8 +21,8 @@ const About = (props) => {
                         I have never stopped educating myself with online courses and have been sharpening my skills to deliver better and better quality works.
                     </p>
                     <p>
-                        Apart from sharpening my technical skills every day, I have a <strong>6.5 IELTS certificate</strong> and am willing to relocate to a different city to work.
-                        I'm excited about working in a whole new different city with new people and new cultures.
+                        Apart from sharpening my technical skills every day, I have a <strong>6.5 IELTS certificate</strong> and I am willing to relocate to a different city to work.
+                        I'm excited about working in a whole new different city with new people and new cultures, especially challenging my self with new technologies.
                     </p>
                     <div className="intro-status mt-2">
                         <div className="intro-section-title">
