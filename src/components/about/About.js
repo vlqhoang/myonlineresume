@@ -13,16 +13,16 @@ const About = (props) => {
                     <h2 className="intro-greeting">Hello! I'm Hoang Vu.</h2>
                     <p>
                         I'm a full-stack software developer with roughly {currentYear - firstYearWorking} years of experience. I am an independent, self-motivated, and earnest software developer.
-                        I have good experience in the full life cycle of the software design processes including requirement analysis, prototyping, concept analysis, design, implementation of a clean, scalable, and maintainable application, testing, enhancing performance, maintenance.
+                        I have good experience in the full life cycle of the software design processes including requirement analysis, prototyping, concept analysis, design, implementation of a clean, scalable, and maintainable application, testing, enhancing performance, and maintenance.
                     </p>
                     <p>
                         I graduated from FPT University in 2018 with a <strong>Good degree</strong>. Ever since I graduated with a CS degree,
                         I've been working as a full-stack software developer and have been proving my skills through many successful projects.
-                        I have never stopped educating myself with online courses and have been sharpening my skills to deliver better and better quality works.
+                        I have never stopped educating myself with online courses and have been sharpening my skills to deliver better and better quality work.
                     </p>
                     <p>
-                        Apart from sharpening my technical skills every day, I have a <strong>6.5 IELTS certificate</strong> and I am willing to relocate to a different city to work.
-                        I'm excited about working in a whole new different city with new people and new cultures, especially challenging my self with new technologies.
+                        Apart from sharpening my technical skills daily, I have a <strong>6.5 IELTS certificate</strong> and I am willing to relocate to a different city to work.
+                        I'm excited about working in a whole new different city with new people and new cultures, especially challenging myself with new technologies.
                     </p>
                     <div className="intro-status mt-2">
                         <div className="intro-section-title">
